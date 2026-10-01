@@ -14,3 +14,5 @@
   - 多筆測資不能沒讀完直接 return
   // - 記得刪 cerr
   - vector 超級肥，小 vector 請用 array，例如矩陣快速冪
+  - `#define endl '\n'` 要寫在開頭（`#define` 是 sequential 的，之前的程式碼不會被替換）
+  - `cin >>` 讀 `double` / `long double` 超級慢（CF 106627I），改讀字串再 `stod`／`stold` 或用 `scanf`
